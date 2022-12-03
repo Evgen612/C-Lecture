@@ -1,6 +1,7 @@
-﻿Console.Write("Введите ваше имя ");
-string username = Console.ReadLine();
-Console.Write("Привет, ");
+﻿Console.Write("Введите ваше имя "); //выводим сообщение с просьбой ввести данные имени.
+string username = Console.ReadLine(); //команда Console.ReadLine позволяет считать информацию, которую введет пользователь,
+//после чего мы переводим ее в переменную username.
+Console.Write("Привет, "); // выводим сообщение и при помощи переменной вставляем имя пользователяю.
 Console.Write(username);
 
 
